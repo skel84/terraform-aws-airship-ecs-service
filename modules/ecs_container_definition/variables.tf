@@ -104,7 +104,7 @@ variable "log_driver" {
 
 # list of mount points to add to every container in the task
 variable "mountpoints" {
-  type    = list(string)
+  type    = list(any)
   default = []
   # {
   #   source_volume = "service-storage"
