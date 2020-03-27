@@ -1,6 +1,6 @@
 # Internal lookup map
 variable "direction" {
-  type = map(list)
+  type = map(any)
 
   default = {
     up   = ["GreaterThanOrEqualToThreshold", "scale_out"]
